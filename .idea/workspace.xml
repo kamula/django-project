@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73cf812c-5613-43c2-a79f-edf94cb04ac8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/media/prof.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/profile_pics/kip.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/signals.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_project/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_project/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profile_pics/Screenshot_from_2019-10-29_08-35-11.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/profile_pics/Screenshot_from_2019-10-29_08-35-11.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/signals.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/signals.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users/templates/users/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/users/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,8 +59,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/media" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/media" />
+    </key>
   </component>
   <component name="RunManager" selected="Python.num36">
     <configuration name="num34" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -173,7 +175,10 @@
       <workItem from="1582787678094" duration="4352000" />
       <workItem from="1582821959898" duration="103000" />
       <workItem from="1582870476788" duration="60000" />
-      <workItem from="1582871737454" duration="6331000" />
+      <workItem from="1582871737454" duration="7043000" />
+      <workItem from="1582885882375" duration="335000" />
+      <workItem from="1583052837425" duration="2689000" />
+      <workItem from="1583080219769" duration="1567000" />
     </task>
     <servers />
   </component>
@@ -181,26 +186,26 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="466" y="155" width="424" height="491" key="FileChooserDialogImpl" timestamp="1582870540805">
+    <state x="466" y="155" width="424" height="491" key="FileChooserDialogImpl" timestamp="1582886131010">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="466" y="155" width="424" height="491" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1582870540805" />
-    <state width="1320" height="172" key="GridCell.Tab.0.bottom" timestamp="1582822092971">
+    <state x="466" y="155" width="424" height="491" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1582886131010" />
+    <state width="1320" height="172" key="GridCell.Tab.0.bottom" timestamp="1582886223441">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="172" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1582822092971" />
-    <state width="1320" height="172" key="GridCell.Tab.0.center" timestamp="1582822092971">
+    <state width="1320" height="172" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1582886223441" />
+    <state width="1320" height="172" key="GridCell.Tab.0.center" timestamp="1582886223440">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="172" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1582822092971" />
-    <state width="1320" height="172" key="GridCell.Tab.0.left" timestamp="1582822092970">
+    <state width="1320" height="172" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1582886223440" />
+    <state width="1320" height="172" key="GridCell.Tab.0.left" timestamp="1582886223440">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="172" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1582822092970" />
-    <state width="1320" height="172" key="GridCell.Tab.0.right" timestamp="1582822092971">
+    <state width="1320" height="172" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1582886223440" />
+    <state width="1320" height="172" key="GridCell.Tab.0.right" timestamp="1582886223441">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="172" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1582822092971" />
+    <state width="1320" height="172" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1582886223441" />
     <state width="263" height="500" key="HiddenNamespacesPopup" timestamp="1582296490070">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -209,14 +214,15 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="172" y="32" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1582105989767" />
-    <state x="339" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1582870484121">
+    <state x="339" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1583080220783">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="339" y="225" key="com.intellij.ide.util.TipDialog/0.27.1366.741@0.27.1366.741" timestamp="1582870484121" />
+    <state x="339" y="225" key="com.intellij.ide.util.TipDialog/0.27.1366.741/1366.0.1024.768@0.27.1366.741" timestamp="1583052837648" />
+    <state x="339" y="225" key="com.intellij.ide.util.TipDialog/0.27.1366.741@0.27.1366.741" timestamp="1583080220783" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/django_project$num34.coverage" NAME="num34 Coverage Results" MODIFIED="1582821388850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/folders/abby" />
-    <SUITE FILE_PATH="coverage/django_project$num36.coverage" NAME="num36 Coverage Results" MODIFIED="1582822077399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/folders/abby" />
-    <SUITE FILE_PATH="coverage/django_project$num35.coverage" NAME="num35 Coverage Results" MODIFIED="1582821420984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/folders/abby" />
+    <SUITE FILE_PATH="coverage/django_project$num34.coverage" NAME="num34 Coverage Results" MODIFIED="1582886061217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/folders/abby" />
+    <SUITE FILE_PATH="coverage/django_project$num36.coverage" NAME="num36 Coverage Results" MODIFIED="1582886136619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/folders/abby" />
+    <SUITE FILE_PATH="coverage/django_project$num35.coverage" NAME="num35 Coverage Results" MODIFIED="1582886099512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/folders/abby" />
   </component>
 </project>
