@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="73cf812c-5613-43c2-a79f-edf94cb04ac8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,6 +177,7 @@
       <workItem from="1583478001289" duration="79000" />
       <workItem from="1583478449047" duration="34000" />
       <workItem from="1584001575118" duration="443000" />
+      <workItem from="1587840402734" duration="2341000" />
     </task>
     <servers />
   </component>
@@ -212,11 +213,11 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="172" y="32" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1582105989767" />
-    <state x="339" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1583478449039">
+    <state x="339" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1587927376074">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="339" y="225" key="com.intellij.ide.util.TipDialog/0.27.1366.741/1366.0.1024.768@0.27.1366.741" timestamp="1583052837648" />
-    <state x="339" y="225" key="com.intellij.ide.util.TipDialog/0.27.1366.741@0.27.1366.741" timestamp="1583478449039" />
+    <state x="339" y="225" key="com.intellij.ide.util.TipDialog/0.27.1366.741@0.27.1366.741" timestamp="1587927376074" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/django_project$num34.coverage" NAME="num34 Coverage Results" MODIFIED="1582886061217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/folders/abby" />
